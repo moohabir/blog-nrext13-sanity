@@ -17,28 +17,14 @@ const navList = [
     title: 'About',
     url: '/about',
   },
+
   {
     id: 3,
-    title: 'Skills',
-    url: '/skills',
-  },
-  {
-    id: 4,
-    title: 'Projects',
-    url: '/projects',
-  },
-  {
-    id: 5,
-    title: 'Service',
-    url: '/service',
-  },
-  {
-    id: 6,
     title: 'Blog',
     url: '/blog',
   },
   {
-    id: 7,
+    id: 4,
     title: 'Contact',
     url: '/contacts',
   },
@@ -57,7 +43,7 @@ export default function Navbar() {
         href="/"
         className="hover:animate-bounce  px-20 text-black text-2xl font-bold"
       >
-        MY Portfolio
+        MY Blog
       </Link>
 
       {/* Mobile version */}
