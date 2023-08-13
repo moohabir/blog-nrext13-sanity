@@ -14,23 +14,14 @@ const navList = [
     title: 'About',
     url: '/about',
   },
+
   {
     id: 3,
-    title: 'Skills',
-    url: '/skills',
-  },
-  {
-    id: 4,
-    title: 'Projects',
-    url: '/projects',
-  },
-  {
-    id: 5,
     title: 'Blog',
     url: '/blog',
   },
   {
-    id: 6,
+    id: 4,
     title: 'Contact',
     url: '/contacts',
   },
@@ -46,7 +37,7 @@ export default function Footer() {
         </Link>
         <div className="flex flex-col p-4">
           <h2 className="font-bold text-xl ">Socials</h2>
-          <Link href="https://www.facebook.com/moohabir">
+          <Link href="https://www.facebook.com/profile.php?id=100095326840481">
             <button className="hover:animate-bounce p-4">
               <Facebook />
             </button>
